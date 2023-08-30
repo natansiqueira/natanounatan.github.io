@@ -1,27 +1,101 @@
-@font-face {
-  font-family: 'Berkeley Mono';
-	src:
-		url('/assets/fonts/berkeley-mono-regular.woff') format('woff');
-}
-
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "base";
+@import "syntax_highlighting";
 
 html {
-  font-size: 16px;
-	font-family: 'Berkeley Mono', 'SF Mono', monospaced;
+    border-top: 5px solid #1eabed;
 }
 
-.wrap {
-  margin: 20px auto;
-  max-width: 960px;
+body {
+    padding: 1rem;
+}
+
+.container {
+    margin: 1rem auto;
+    max-width: 30rem;
+}
+
+.main-title {
+    font-weight: 300;
+}
+
+.main-title>a {
+    color: #333;
+}
+
+.main-title>a:hover,
+.main-title>a:focus {
+    text-decoration: none
+}
+
+.main-title>a>span {
+    color: #ddd;
 }
 
 .post {
-  margin: 20px 0;
+    margin-bottom: .25rem;
+}
+
+.post-title {
+    margin: 1rem 0 .25rem;
+}
+
+.post-title>a {
+    color: #333;
+}
+
+.post-title>a:hover,
+.post-title>a:focus {
+    text-decoration: none;
+}
+
+.content>.post-date{
+    margin: 0 0 1rem;
+}
+.pagination {
+    display: flex;
+}
+
+.pagination-previous,
+.pagination-next {
+    width: 15rem;
+}
+
+.pagination-previous {
+    text-align: left;
+}
+
+.pagination-next {
+    text-align: right;
+}
+
+.about {
+    font-size: 16px;
+}
+
+.photo {
+    display: inline;
+    margin: 0 auto;
+}
+
+.photo>img {
+    width: 5rem;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons>ul {
+    list-style: none;
+}
+
+.social-icons>ul>li{
+    display: inline-block;
+}
+
+.social-icons>ul>li>a>div {
+    margin-left: 1rem;
+    width: 2rem;
 }

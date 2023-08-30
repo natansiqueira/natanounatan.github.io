@@ -1,5 +1,9 @@
-paginate: 2
-paginate_path: "/articles/page/:num"
+title: "natan ou natan?"
+email: natanounatan@gmail.com
+description: "trying to be better than yesterday"
+baseurl: "/"
+url: "natanounatan.github.io"
+twitter_username: natanounatan
+github_username: natanounatan
 
-plugins:
-  - jekyll-paginate
+permalink: /:title
