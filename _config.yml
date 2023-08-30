@@ -5,6 +5,7 @@ baseurl: "/"
 url: "natanounatan.github.io"
 twitter_username: natanounatan
 github_username: natanounatan
+google_analytics: G-ZZ4YLH7SLH
 
 permalink: /:title
 
