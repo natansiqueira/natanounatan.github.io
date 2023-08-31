@@ -1,7 +1,8 @@
 title: "natan ou natan?"
 email: natanounatan@gmail.com
 description: "tentando ser melhor do que ontem"
-url: "/"
+baseurl: "/"
+url: "https://natansiqueira.com"
 google_analytics: G-ZZ4YLH7SLH
 
 twitter:
