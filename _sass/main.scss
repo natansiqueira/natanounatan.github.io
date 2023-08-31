@@ -27,12 +27,9 @@ body {
     text-decoration: none
 }
 
-.main-title>a>span {
-    color: #ddd;
-}
-
 .post {
     margin-bottom: .25rem;
+    border-bottom: 1px solid #ddd;
 }
 
 .post-title {
@@ -41,11 +38,6 @@ body {
 
 .post-title>a {
     color: #333;
-}
-
-.post-title>a:hover,
-.post-title>a:focus {
-    text-decoration: none;
 }
 
 .content>.post-date{
