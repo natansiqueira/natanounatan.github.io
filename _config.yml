@@ -2,9 +2,11 @@ title: "natan ou natan?"
 email: natanounatan@gmail.com
 description: "tentando ser melhor do que ontem"
 url: "/"
-twitter_username: natanounatan
-github_username: natanounatan
 google_analytics: G-ZZ4YLH7SLH
+
+twitter:
+  username: natanounatan
+  card: summary
 
 permalink: /:title
 
