@@ -27,6 +27,10 @@ body {
     text-decoration: none
 }
 
+.main-nav>ul>li>a.current {
+    text-decoration: underline;
+}
+
 .post {
     margin-bottom: .25rem;
     border-bottom: 1px solid #ddd;
@@ -65,15 +69,24 @@ body {
     font-size: 1rem;
 }
 
-.photo {
-    display: inline;
-    margin: 0 auto;
+.me>.photo {
+    display: inline-block;
 }
 
-.photo>img {
+.me>.photo>img {
+    display: inline-block;
     width: 5rem;
+    vertical-align: middle;
     border: 3px solid #ddd;
     border-radius: 50%;
+}
+
+.me>p{
+    display: inline-block;
+    margin-left: 1rem;
+    width: 20rem;
+    vertical-align: middle;
+    text-align: justify;
 }
 
 .social-icons {

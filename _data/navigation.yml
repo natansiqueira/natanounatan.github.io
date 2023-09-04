@@ -1,2 +1,6 @@
+- name: home
+  link: /
+- name: citações
+  link: /quotes
 - name: sobre mim
   link: /about
