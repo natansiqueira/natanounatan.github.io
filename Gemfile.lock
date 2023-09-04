@@ -71,7 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3)
-  jekyll-date-localization
+  jekyll-date-localization (~> 0.0.6)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
 
