@@ -2,7 +2,7 @@
 layout: post
 title:  "hello world"
 description: "porque tudo começa com um bom hello world"
-date:   2023-08-30 18:00:00 -0300
+date: 2023-08-30 18:00:00 -0300
 tags:
     - misc
 ---

@@ -1,8 +1,10 @@
-title: "natan ou natan?"
-email: natanounatan@gmail.com
-description: "tentando ser melhor do que ontem"
-baseurl: ""
+title: "Natan Siqueira"
+tagline: "Um blog/site de um futuro engenheiro de software que gosta de seguir a filosofia Building your own X e brincar/experimentar bastante"
+description: "Um blog/site de um futuro engenheiro de software que gosta de seguir a filosofia Building your own X e brincar/experimentar bastante"
 url: "https://natansiqueira.com"
+author: "Natan Siqueira"
+locale: "pt_BR"
+email: natanounatan@gmail.com
 google_analytics: G-ZZ4YLH7SLH
 
 twitter:
@@ -13,4 +15,3 @@ permalink: /:title
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
