@@ -14,4 +14,3 @@ permalink: /:title
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-date-localization
